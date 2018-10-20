@@ -1,0 +1,64 @@
+body{
+font-size: 20px;
+background: linear-gradient(25deg,#ccffff,#ffcccc);
+}
+.form{
+position: relative;
+bottom: 10px;
+background-color: rgba(0,225,0,0.3);
+margin: 20px auto;
+width: 65vw;
+height: auto;
+padding: 10px 30px 20px 10px;
+border-radius: 5px;
+}
+#title{
+text-align: center;
+padding: 5px;
+font-size: 35px;
+margin: 10px auto;
+}
+#description{
+position: relative;
+text-align: center;
+padding: 5px 0px 10px 0px;
+}
+.role{
+position: relative;
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+margin: 30px auto;
+padding: 25px;
+line-height: 35px;
+width: 58vw;
+}
+.info, .improve, .refer, .comment{
+position: relative;
+top: 0px;
+left: 0px;
+bottom: 0px;
+right: 0px;
+margin: 30px auto;
+margin-bottom: 5px;
+padding: 20px;
+line-height: 35px;
+width: 58vw;
+}
+.left{
+float: left;
+width: 32vw;
+text-align: right;
+}
+.right{
+float: right;
+width: 23vw;
+text-align: left;
+}
+#submit{
+margin: 40px 50%;
+padding: 12px 20px 10px 20px;
+border-radius: 5px;
+margin-bottom: 2px;
+}
